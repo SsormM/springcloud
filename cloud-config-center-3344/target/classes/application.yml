@@ -8,9 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/SsormM/springcloud-config.git  #GitHub上面的git仓库名字
-          username: 543050051@qq.com
-          password: Sm543050051
+          uri: git@github.com:SsormM/springcloud-config.git  #GitHub上面的git仓库名字
           ##### 搜索目录
           search-paths:
             - springcloud-config
